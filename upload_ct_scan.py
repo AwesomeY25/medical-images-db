@@ -52,13 +52,13 @@ def main():
             "ct_scan": binary_image,
             "body_part": json_data["body_part"],
             "scan_type": json_data["scan_type"],
-            "contrast": json_data.get("contrast", None),  # Optional
+            "contrast": bool(json_data.get("contrast", False)),  # Ensure this is a boolean
             "status": json_data["status"],
             "impressions": json_data["impressions"],
-            "disease_type": json_data.get("disease_type", []),  # Optional
-            "related_info": json_data.get("related_info", None),  # Optional
-            "scan_parameters": json_data.get("scan_parameters", None),  # Optional
-            "image_info": json_data.get("image_info", None),  # Optional
+            "disease_type": json_data.get("disease_type", []),  # Ensure this is a list, even if empty
+            "related_info": json_data.get("related_info", {}),  # Ensure this is an object (empty object if missing)
+            "scan_parameters": json_data.get("scan_parameters", {}),  # Ensure this is an object (empty object if missing)
+            "image_info": json_data.get("image_info", {}),  # Ensure this is an object (empty object if missing)
             "clinic_id": json_data["clinic_id"]
         }
 
