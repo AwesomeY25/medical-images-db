@@ -6,7 +6,6 @@
         "status": "normal",
         "impressions": "The examination reveals a healthy chest structure with no evidence of ground-glass opacities or areas of consolidation. The airways are unobstructed, with the trachea and bronchi appearing clear and without any signs of thickening. Mediastinal and hilar vessels are of normal size, and there are no indications of pleural effusions or thickening. Moreover, no enlarged lymph nodes are present. In summary, the findings suggest no abnormalities associated with COVID-19 or other pulmonary conditions, reflecting normal lung architecture throughout.",
         "disease_type": [],
-        "related_info": null,
         "image_info": {"dimensions": "512 x 512", "file_format": "png"},
         "clinic_id": 9
     },
@@ -17,7 +16,6 @@
         "status": "normal",
         "impressions": "The evaluation demonstrates a normal chest with no ground-glass opacities, consolidations, or indications of viral pneumonia. The airways are unobstructed, with clear visibility of the trachea and bronchi, and no thickening observed. Mediastinal and hilar vessels display normal caliber, with no signs of pleural effusions or thickening. Additionally, there are no enlarged lymph nodes detected. In summary, the findings suggest no abnormalities consistent with COVID-19 or other lung conditions, exhibiting a normal lung appearance overall.",
         "disease_type": [],
-        "related_info": null,
         "image_info": {"dimensions": "512 x 512", "file_format": "png"},
         "clinic_id": 10
     },
@@ -28,7 +26,6 @@
         "status": "normal",
         "impressions": "The image reveals a chest with no ground-glass opacities or consolidations indicative of pneumonia. The airways appear clear, with the trachea and bronchi unobstructed and no thickening noted. Mediastinal and hilar vessels are of normal caliber, with no pleural effusions or thickening evident. Additionally, there are no enlarged lymph nodes identified. Overall, the findings suggest no abnormalities consistent with lung conditions, maintaining a normal lung appearance throughout.",
         "disease_type": [],
-        "related_info": null,
         "image_info": {"dimensions": "512 x 512", "file_format": "png"},
         "clinic_id": 9
     },
@@ -39,7 +36,6 @@
         "status": "abnormal",
         "impressions": "The examination reveals findings consistent with pulmonary tuberculosis, including potential cavitations and nodular opacities in the lung fields. The airways appear clear, but there may be associated evidence of inflammation. The mediastinal and hilar vessels may exhibit changes suggestive of lymphadenopathy. There are no pleural effusions noted. In summary, the findings raise concern for tuberculosis or other granulomatous processes, warranting further evaluation and clinical correlation.",
         "disease_type": ["tuberculosis"],
-        "related_info": null,
         "image_info": {"dimensions": "512 x 512", "file_format": "png"},
         "clinic_id": 10
     },
@@ -50,7 +46,6 @@
         "status": "abnormal",
         "impressions": "The chest radiograph shows abnormal findings consistent with tuberculosis. Evidence of apical opacities and cavitary lesions is noted, which are characteristic of pulmonary tuberculosis.",
         "disease_type": ["tuberculosis"],
-        "related_info": null,
         "image_info": {"dimensions": "512 x 512", "file_format": "png"},
         "clinic_id": 10
     },
@@ -61,7 +56,6 @@
         "status": "abnormal",
         "impressions": "Evidence of patchy opacities and consolidation in the upper lobes bilaterally, consistent with potential granulomatous infection. Hilar lymphadenopathy is suggested. Reticulonodular patterns are noted, which may indicate fibrotic changes. No significant pleural effusion or pneumothorax observed. The cardiac silhouette and diaphragm appear within normal limits.",
         "disease_type": ["tuberculosis"],
-        "related_info": null,
         "image_info": {"dimensions": "512 x 512", "file_format": "png"},
         "clinic_id": 7
     },
@@ -138,7 +132,6 @@
         "status": "abnormal",
         "impressions": "Abnormal chest radiograph findings indicative of pulmonary fibrosis. Evidence of diffuse interstitial thickening and reduced lung volumes.",
         "disease_type": ["fibrosis"],
-        "related_info": null,
         "image_info": {"dimensions": "2500 x 2048", "file_format": "png"},
         "clinic_id": 9
     },
@@ -149,7 +142,6 @@
         "status": "abnormal",
         "impressions": "Abnormalities observed consistent with pulmonary fibrosis, including coarse reticular opacities predominantly in the lower lung zones.",
         "disease_type": ["fibrosis"],
-        "related_info": null,
         "image_info": {"dimensions": "2048 x 2500", "file_format": "png"},
         "clinic_id": 15
     },
@@ -160,7 +152,6 @@
         "status": "abnormal",
         "impressions": "Radiographic findings demonstrate features of advanced pulmonary fibrosis, with prominent reticulonodular patterns and extensive interstitial thickening.",
         "disease_type": ["fibrosis"],
-        "related_info": null,
         "image_info": {"dimensions": "2992 x 2991", "file_format": "png"},
         "clinic_id": 2
     }
