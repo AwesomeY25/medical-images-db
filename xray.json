@@ -66,18 +66,18 @@
         "clinic_id": 7
     },
     {
-        "xray_image": "COVID-19-1.png",
+        "xray_image": "COVID-19-1.jpg",
         "body_part": "chest",
         "view": "PA",
         "status": "abnormal",
         "impressions": "Bilateral ground-glass opacities are seen in the lower lung zones, which is characteristic of early-stage viral pneumonia. Patchy consolidations in the periphery of the lungs may indicate evolving inflammation. Mild interstitial prominence in the mid and lower lung fields. No significant pleural effusion or pneumothorax. Cardiomegaly and mediastinal structures are normal.",
         "disease_type": ["covid-19"],
         "related_info": {"date": "2020-01-22"},
-        "image_info": {"file_format": "jpeg"},
+        "image_info": {"file_format": "jpg"},
         "clinic_id": 7
     },
     {
-        "xray_image": "COVID-19-2.png",
+        "xray_image": "COVID-19-2.jpg",
         "body_part": "chest",
         "view": "AP",
         "status": "abnormal",
@@ -88,18 +88,18 @@
         "clinic_id": 15
     },
     {
-        "xray_image": "COVID-19-3.png",
+        "xray_image": "COVID-19-3.jpg",
         "body_part": "chest",
         "view": "lateral",
         "status": "abnormal",
         "impressions": "Bilateral consolidation with increased opacity in the lower and middle lung fields. Ground-glass opacities noted in the periphery of the lungs, a hallmark of COVID-19 infection. Mild effusion noted in the right lower pleural space. No pneumothorax or significant mass lesions. The mediastinal and cardiac contours are unremarkable.",
         "disease_type": ["covid-19"],
         "related_info": {"year": 2020},
-        "image_info": {"file_format": "png"},
+        "image_info": {"file_format": "jpg"},
         "clinic_id": 15
     },
     {
-        "xray_image": "Pneumonia-Bacteria-2.png",
+        "xray_image": "Pneumonia-Bacteria-2.jpeg",
         "body_part": "chest",
         "view": "AP",
         "status": "abnormal",
@@ -110,7 +110,7 @@
         "clinic_id": 14
     },
     {
-        "xray_image": "Pneumonia-Virus.png",
+        "xray_image": "Pneumonia-Virus.jpeg",
         "body_part": "chest",
         "view": "AP",
         "status": "abnormal",
@@ -121,7 +121,7 @@
         "clinic_id": 5
     },
     {
-        "xray_image": "Pneumonia-Bacteria-1.png",
+        "xray_image": "Pneumonia-Bacteria-1.jpeg",
         "body_part": "chest",
         "view": "AP",
         "status": "abnormal",
