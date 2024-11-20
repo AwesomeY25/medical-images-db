@@ -21,7 +21,7 @@ def main():
     # Step 3: Process each entry in the JSON data
     for json_data in json_data_list:
         # Construct the full path to the image file
-        image_path = os.path.join('ct_scans', json_data["ct_scan"])  # Adjust the folder name as needed
+        image_path = os.path.join('ct_scan', json_data["ct_scan"])  # Adjust the folder name as needed
 
         # Check if the image file exists
         if not os.path.exists(image_path):

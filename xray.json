@@ -134,7 +134,7 @@
     {
         "xray_image": "Fibrosis-1.png",
         "body_part": "chest",
-        " view": "PA",
+        "view": "PA",
         "status": "abnormal",
         "impressions": "Abnormal chest radiograph findings indicative of pulmonary fibrosis. Evidence of diffuse interstitial thickening and reduced lung volumes.",
         "disease_type": ["fibrosis"],
