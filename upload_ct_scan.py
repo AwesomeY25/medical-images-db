@@ -7,7 +7,7 @@ import json
 def main():
     # Step 1: Load JSON data from the file
     try:
-        with open('ct_scans.json', 'r') as json_file:
+        with open('ct_scan.json', 'r') as json_file:
             json_data_list = json.load(json_file)
     except Exception as e:
         print(f"Error reading JSON file: {e}")
