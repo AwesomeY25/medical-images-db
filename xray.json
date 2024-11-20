@@ -110,7 +110,7 @@
         "clinic_id": 14
     },
     {
-        "xray_image": "Pneumonia-Virus.jpeg",
+        "xray_image": "Pneumonia-Virus-1.jpeg",
         "body_part": "chest",
         "view": "AP",
         "status": "abnormal",
