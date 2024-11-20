@@ -54,9 +54,9 @@ def main():
                 {"$set": ct_scan_data},
                 upsert=True
             )
-            print(f"CT scan data for {json_data['ct_scan']} inserted or updated successfully.")
+            print(f"CT scan data has been inserted or updated successfully.")
         except Exception as e:
-            print(f"Error inserting or updating CT scan data for {json_data['ct_scan']}: {e}")
+            print(f"Error inserting or updating CT scan data: {e}")
 
 if __name__ == "__main__":
     main()

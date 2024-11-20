@@ -51,9 +51,9 @@ def main():
                 {"$set": mri_data},
                 upsert=True
             )
-            print(f"MRI data for {json_data['mri_image']} inserted or updated successfully.")
+            print(f"MRI data has been inserted or updated successfully.")
         except Exception as e:
-            print(f"Error inserting or updating MRI data for {json_data['mri_image']}: {e}")
+            print(f"Error inserting or updating MRI data: {e}")
 
 if __name__ == "__main__":
     main()

@@ -52,9 +52,9 @@ def main():
                 {"$set": xray_data},
                 upsert=True
             )
-            print(f"X-ray data for {json_data['xray_image']} inserted or updated successfully.")
+            print(f"X-ray data has been inserted or updated successfully.")
         except Exception as e:
-            print(f"Error inserting or updating X-ray data for {json_data['xray_image']}: {e}")
+            print(f"Error inserting or updating X-ray data: {e}")
 
 if __name__ == "__main__":
     main()
