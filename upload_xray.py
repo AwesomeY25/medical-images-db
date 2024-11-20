@@ -18,7 +18,7 @@ def main():
     # Step 2: Connect to MongoDB
     client = MongoClient("mongodb://localhost:27017/")
     db = client["medical-images-db"]  # DB name
-    xrays_collection = db["xrays"]
+    xrays_collection = db["xrays"] 
 
     # Step 3: Process each entry in the JSON data
     for json_data in json_data_list:
@@ -56,12 +56,15 @@ def main():
 
         # Upsert the X-ray data into MongoDB
         try:
-            xrays_collection.updateOne(
+            result = xrays_collection.update_one(
                 {"clinic_id": json_data["clinic_id"], "xray_image": json_data["xray_image"]},  # Unique identifier
                 {"$set": xray_data},
                 upsert=True
             )
-            print(f"X-ray data has been inserted or updated successfully.")
+            if result.matched_count > 0:
+                print(f"X-ray data has been updated successfully for clinic_id: {json_data['clinic_id']}.")
+            else:
+                print(f"X-ray data has been inserted successfully for clinic_id: {json_data['clinic_id']}.")
         except Exception as e:
             print(f"Error inserting or updating X-ray data: {e}")
 
