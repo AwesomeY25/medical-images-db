@@ -3,6 +3,8 @@ import pymongo
 from pymongo import MongoClient
 import os
 import json
+import bson
+from bson.binary import Binary
 
 def main():
     # Step 1: Load JSON data from the file
@@ -32,9 +34,16 @@ def main():
         with open(image_path, "rb") as image_file:
             encoded_image = base64.b64encode(image_file.read()).decode()
 
-        # Prepare the data to be inserted/updated
+        # Create a BSON file and write the Base64-encoded image data to it
+        bson_file_path = os.path.join('xray', json_data["xray_image"].replace(".jpg", ".bson"))
+        with open(bson_file_path, "wb") as bson_file:
+            # Convert the Base64-encoded string to binary and store it in BSON format
+            bson_data = bson.Binary(encoded_image.encode())
+            bson_file.write(bson_data)
+
+        # Prepare the data to be inserted/updated into MongoDB
         xray_data = {
-            "xray_image": encoded_image,
+            "xray_image_bson": bson_data,  # Store the Base64 data as BSON
             "body_part": json_data["body_part"],
             "view": json_data["view"],
             "status": json_data["status"],
@@ -47,7 +56,7 @@ def main():
 
         # Upsert the X-ray data into MongoDB
         try:
-            xrays_collection.update_one(
+            xrays_collection.updateOne(
                 {"clinic_id": json_data["clinic_id"], "xray_image": json_data["xray_image"]},  # Unique identifier
                 {"$set": xray_data},
                 upsert=True
