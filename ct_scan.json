@@ -3,12 +3,9 @@
         "ct_scan": "Covid (1).png",
         "body_part": "chest",
         "scan_type": "axial",
-        "contrast": null,
         "status": "abnormal",
         "impressions": "The chest CT scan shows bilateral ground-glass opacities with a concentration in the peripheral lung fields, which are suggestive of COVID-19 pneumonia. No consolidations or pleural effusions are noted. The bronchial structures appear normal, and there is no evidence of significant lymphadenopathy. The overall distribution of findings is characteristic of viral pneumonia, consistent with a COVID-19 infection.",
         "disease_type": ["covid-19"],
-        "related_info": null,
-        "scan_parameters": null,
         "image_info": {
             "resolution": "96x96",
             "file_format": "png",
@@ -22,12 +19,9 @@
         "ct_scan": "Covid (2).png",
         "body_part": "chest",
         "scan_type": "axial",
-        "contrast": null,
         "status": "abnormal",
         "impressions": "The chest CT scan reveals bilateral ground-glass opacities primarily located in the peripheral lung zones, consistent with COVID-19 pneumonia. Subtle interstitial prominence is noted, without significant consolidations or pleural effusions. The bronchial architecture appears intact, and there is no evidence of lymphadenopathy. These findings are characteristic of a viral pneumonia pattern associated with COVID-19.",
         "disease_type": ["covid-19"],
-        "related_info": null,
-        "scan_parameters": null,
         "image_info": {
             "resolution": "96x96",
             "file_format": "png",
@@ -41,12 +35,9 @@
         "ct_scan": "Covid (3).png",
         "body_part": "chest",
         "scan_type": "axial",
-        "contrast": null,
         "status": "abnormal",
         "impressions": "The chest CT scan shows bilateral ground-glass opacities with a peripheral distribution, characteristic of COVID-19 pneumonia. There is evidence of vascular enlargement within the affected areas, but no significant consolidations or pleural effusions are present. The bronchial structures appear normal, and there is no lymphadenopathy observed. These findings suggest a viral pneumonia pattern consistent with COVID-19 infection.",
         "disease_type": ["covid-19"],
-        "related_info": null,
-        "scan_parameters": null,
         "image_info": {
             "resolution": "96x96",
             "file_format": "png",
@@ -60,12 +51,9 @@
         "ct_scan": "Covid (4).png",
         "body_part": "chest",
         "scan_type": "axial",
-        "contrast": null,
         "status": "abnormal",
         "impressions": "The chest CT scan demonstrates bilateral ground-glass opacities with a predominant peripheral distribution, consistent with COVID-19 pneumonia. Interstitial markings may be present, but there are no significant consolidations or pleural effusions noted. The bronchial tree appears normal, and no lymphadenopathy is observed. These findings align with a viral pneumonia pattern typical of a COVID-19 infection.",
         "disease_type": ["covid-19"],
-        "related_info": null,
-        "scan_parameters": null,
         "image_info": {
             "resolution": "96x96",
             "file_format": "png",
@@ -79,12 +67,9 @@
         "ct_scan": "Covid (5).png",
         "body_part": "chest",
         "scan_type": "axial",
-        "contrast": null,
         "status": "abnormal",
         "impressions": "The chest CT scan reveals bilateral ground-glass opacities with a peripheral and posterior distribution, characteristic of COVID-19 pneumonia. There are subtle interstitial changes noted, but no significant consolidations or pleural effusions are present. The bronchial structures appear intact, and there is no evidence of lymphadenopathy. These findings are consistent with the typical patterns observed in viral pneumonia associated with COVID-19.",
         "disease_type": ["covid-19"],
-        "related_info": null,
-        "scan_parameters": null,
         "image_info": {
             "resolution": "96x96",
             "file_format": "png",
@@ -98,12 +83,8 @@
         "ct_scan": "Non-Covid (1).png",
         "body_part": "chest",
         "scan_type": "axial",
-        "contrast": null,
         "status": "normal",
         "impressions": "The impression shows a normal chest with no ground-glass opacities, consolidations, or signs of viral pneumonia. The airways are patent, with a clear trachea and bronchi and no thickening observed. The mediastinal and hilar vessels maintain normal caliber, and there are no pleural effusions or thickening detected. Additionally, there are no enlarged lymph nodes. Overall, the scan indicates no abnormalities consistent with COVID-19 or other lung conditions, with normal lung appearance throughout.",
-        "disease_type": null,
-        "related_info": null,
-        "scan_parameters": null,
         "image_info": {
             "resolution": "96x96",
             "file_format": "png",
@@ -117,12 +98,8 @@
         "ct_scan": "Non-Covid (2).png",
         "body_part": "chest",
         "scan_type": "axial",
-        "contrast": null,
         "status": "normal",
         "impressions": "The impression shows a normal chest with no ground-glass opacities, consolidations, or signs of viral pneumonia. The airways are patent, with a clear trachea and bronchi and no thickening observed. The mediastinal and hilar vessels maintain normal caliber, and there are no pleural effusions or thickening detected. Additionally, there are no enlarged lymph nodes. Overall, the scan indicates no abnormalities consistent with COVID-19 or other lung conditions, with normal lung appearance throughout.",
-        "disease_type": null,
-        "related_info": null,
-        "scan_parameters": null,
         "image_info": {
             "resolution": "96x96",
             "file_format": "png",
@@ -136,12 +113,8 @@
         "ct_scan": "Non-Covid (3).png",
         "body_part": "chest",
         "scan_type": "axial",
-        "contrast": null,
         "status": "normal",
         "impressions": "The impression shows a normal chest with no ground-glass opacities, consolidations, or signs of viral pneumonia. The airways are patent, with a clear trachea and bronchi and no thickening observed. The mediastinal and hilar vessels maintain normal caliber, and there are no pleural effusions or thickening detected. Additionally, there are no enlarged lymph nodes. Overall, the scan indicates no abnormalities consistent with COVID-19 or other lung conditions, with normal lung appearance throughout.",
-        "disease_type": null,
-        "related_info": null,
-        "scan_parameters": null,
         "image_info": {
             "resolution": "96x96",
             "file_format": "png",
@@ -155,12 +128,8 @@
         "ct_scan": "Non-Covid (4).png",
         "body_part": "chest",
         "scan_type": "axial",
-        "contrast": null,
         "status": "normal",
         "impressions": "The impression shows a normal chest with no ground-glass opacities, consolidations, or signs of viral pneumonia. The airways are patent, with a clear trachea and bronchi and no thickening observed. The mediastinal and hilar vessels maintain normal caliber, and there are no pleural effusions or thickening detected. Additionally, there are no enlarged lymph nodes. Overall, the scan indicates no abnormalities consistent with COVID-19 or other lung conditions, with normal lung appearance throughout.",
-        "disease_type": null,
-        "related_info": null,
-        "scan_parameters": null,
         "image_info": {
             "resolution": "96x96",
             "file_format": "png",
@@ -174,144 +143,15 @@
         "ct_scan": "Non-Covid (5).png",
         "body_part": "chest",
         "scan_type": "axial",
-        "contrast": null,
         "status": "normal",
         "impressions": "The impression shows a normal chest with no ground-glass opacities, consolidations, or signs of viral pneumonia. The airways are patent, with a clear trachea and bronchi and no thickening observed. The mediastinal and hilar vessels maintain normal caliber, and there are no pleural effusions or thickening detected. Additionally, there are no enlarged lymph nodes. Overall, the scan indicates no abnormalities consistent with COVID-19 or other lung conditions, with normal lung appearance throughout.",
-        "disease_type": null,
-        "related_info": null,
-        "scan_parameters": null,
         "image_info": {
             "resolution": "96x96",
             "file_format": "png",
-            "dimensions": "382x326",
+            "dimensions": "360x292",
             "color_space": "RGB",
             "color_profile": "Color LCD"
         },
-        "clinic_id": 9
-    },
-    {
-        "ct_scan": "jkms-35-e79-g001-l-d.jpg",
-        "body_part": "chest",
-        "scan_type": "axial",
-        "contrast": null,
-        "status": "abnormal",
-        "impressions": "Small consolidation in right upper lobe and ground-glass opacities in both lower lobes were observed on high-resolution computed tomography scan.",
-        "disease_type": ["covid-19"],
-        "related_info": {
-            "survived": "yes",
-            "date_of_exam": "2020-01-31"
-        },
-        "scan_parameters": null,
-        "image_info": {
-            "resolution": "145x145",
-            "file_format": "jpg",
-            "dimensions": "508x343",
-            "color_space": "RGB",
-            "color_profile": "sRGB IEC61966-2.1"
-        },
         "clinic_id": 4
-    },
-    {
-        "ct_scan": "1-s2.0-S0929664620300449-gr3_lrg-a.jpg",
-        "body_part": "chest",
-        "scan_type": "axial",
-        "contrast": null,
-        "status": "abnormal",
-        "impressions": "Chest CT in convalescent stage showed persistent multifocal GGOs with or without superimposed reticulation and mild fibrotic change at bilateral lungs, including peripheral subpleural regions of both lower lobes. Two small irregular opacities at the RUL and RML were probably partially resolved consolidations (arrows).",
-        "disease_type": ["covid-19"],
-        "related_info": {
-            "survived": "yes",
-            "date_of_exam": "2020-02-06"
-        },
-        "scan_parameters": null,
-        "image_info": {
-            "resolution": "500x500",
-            "file_format": "jpg",
-            "dimensions": "1183x923",
-            "color_space": "RGB",
-            "color_profile": "sRGB IEC61966-2.1"
-        },
-        "clinic_id": 10
-    },
-    {
-        "ct_scan": "5083A6B7-8983-472E-A427-570A3E03DDEE.jpeg",
-        "body_part": "chest",
-        "scan_type": "axial",
-        "contrast": null,
-        "status": "normal",
-        "impressions": "In November 2019 fever cough and asthenia treated with Ceftriaxone, subsequently with Amoxicillin and cortisone therapy. For a few days, the appearance of cough and fever 37.8 °, modest asthenia. 98% pO2 saturation is detected in ambient air. No pleuro-parenchymal outbreaks in progress. Heart and small circle within limits.",
-        "disease_type": null,
-        "related_info": {
-            "survived": "yes",
-            "intubated": "no",
-            "temperature": 37.8,
-            "pO2_saturation": "98"
-        },
-        "scan_parameters": null,
-        "image_info": {
- "file_format": "jpg",
-            "dimensions": "1657x1530",
-            "color_space": "RGB",
-            "color_profile": "Display P3"
-        },
-        "clinic_id": 9
-    },
-    {
-        "ct_scan": "396A81A5-982C-44E9-A57E-9B1DC34E2C08.jpeg",
-        "body_part": "chest",
-        "scan_type": "axial",
-        "contrast": null,
-        "status": "abnormal",
-        "impressions": "Symptomatic for two days, worsening, with dry cough, pyrexia over 38 ° C, asthenia. 93% pO2 saturation is detected in ambient air. The radiological picture is typical for COVID-19 interstitial pneumonia. The patient is accompanied to the emergency room, subjected to a pharyngeal swab and hospitalized for appropriate treatment.",
-        "disease_type": ["covid-19"],
-        "related_info": {
-            "intubated": "no",
-            "temperature": 38,
-            "pO2_saturation": "93"
-        },
-        "scan_parameters": null,
-        "image_info": {
-            "file_format": "jpg",
-            "dimensions": "1764x1668",
-            "color_space": "RGB",
-            "color_profile": "Display P3"
-        },
-        "clinic_id": 7
-    },
-    {
-        "ct_scan": "kjr-21-e24-g001-l-b.jpg",
-        "body_part": "chest",
-        "scan_type": "coronal",
-        "contrast": null,
-        "status": "abnormal",
-        "impressions": "COVID-19 pneumonia manifesting as confluent mixed ground-glass opacities and consolidation on CT. Coronal and axial chest CT images show confluent mixed ground-glass opacities and consolidative lesions in peripheral bilateral lungs. Discrete patchy consolidation (arrowheads) is noted in left upper lobe.",
-        "disease_type": ["covid-19"],
-        "related_info": null,
-        "scan_parameters": null,
-        "image_info": {
-            "file_format": "jpg",
-            "dimensions": "331x241",
-            "color_space": "RGB",
-            "color_profile": "sRGB IEC61966-2.1"
-        },
-        "clinic_id": 5
-    },
-    {
-        "ct_scan": "kjr-21-e24-g002-l-c.jpg",
-        "body_part": "chest",
-        "scan_type": "coronal",
-        "contrast": null,
-        "status": "abnormal",
-        "impressions": "COVID-19 pneumonia manifesting as confluent pure ground-glass opacities on CT. Baseline axial and coronal chest CT images show confluent pure ground-glass opacities involving both lungs. Most of confluent and patchy ground-glass opacities about pleura and fissure in peripheral lung. A few calcified granulomas are incidentally noted in left upper lobe.",
-        "disease_type": ["covid-19"],
-        "related_info": null,
-        "scan_parameters": null,
-        "image_info": {
-            "file_format": "jpg",
-            "dimensions": "331x240",
-            "color_space": "RGB",
-            "color_profile": "sRGB IEC61966-2.1"
-        },
-        "clinic_id": 1
     }
 ]

@@ -3,6 +3,8 @@ import pymongo
 from pymongo import MongoClient
 import os
 import json
+import bson
+from bson.binary import Binary
 
 def main():
     # Step 1: Load JSON data from the file
@@ -23,18 +25,31 @@ def main():
         # Construct the full path to the image file
         image_path = os.path.join('ct_scan', json_data["ct_scan"])  # Adjust the folder name as needed
 
-        # Check if the image file exists
+# Check if the image file exists
         if not os.path.exists(image_path):
             print(f"Error: The file {image_path} does not exist.")
             continue
 
+        # Check if the image file has a valid type
+        file_extension = os.path.splitext(image_path)[1].lower()
+        if file_extension not in ['.jpg', '.jpeg', '.png']:
+            print(f"Error: The file {image_path} has an invalid file type.")
+            continue
+
         # Encode the local image to Base64
-        with open(image_path, "rb") as image_file:
-            encoded_image = base64.b64encode(image_file.read()).decode()
+        try:
+            with open(image_path, "rb") as image_file:
+                encoded_image = base64.b64encode(image_file.read()).decode()  # Read as binary and encode
+        except Exception as e:
+            print(f"Error encoding image {image_path}: {e}")
+            continue
+
+        # Convert the base64 string into binary data (to store as 'binData' in MongoDB)
+        binary_image = Binary(base64.b64decode(encoded_image))  # Convert back to binary data
 
         # Prepare the data to be inserted/updated
         ct_scan_data = {
-            "ct_scan": encoded_image,
+            "ct_scan": binary_image,
             "body_part": json_data["body_part"],
             "scan_type": json_data["scan_type"],
             "contrast": json_data.get("contrast", None),  # Optional
