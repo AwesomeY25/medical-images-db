@@ -151,5 +151,80 @@
       "file_format": "jpg"
     },
     "clinic_id": 14
-  }
+  },
+{
+        "mri_image": "Breast Cancer 1.jpg",
+        "body_part": "chest",
+        "status": "abnormal",
+        "disease_type": ["breast cancer"],
+        "impressions": "The examination reveals findings consistent with breast malignancy, including potential mass lesions and irregular tissue infiltration. The surrounding tissue may exhibit signs of edema or inflammatory changes. Lymph nodes in the axillary and supraclavicular regions may appear enlarged, suggesting possible lymphadenopathy. There are no significant pleural effusions noted. In summary, these findings are concerning for metastatic spread or primary breast carcinoma, warranting further evaluation and clinical correlation.",
+        "related_info": {
+            "has_breast_tumor": "yes",
+            "tumor_classification": "malignant"
+        },
+        "image_info": {
+            "dimensions": "540 x 250",
+            "file_format": "jpg"
+        }
+    },
+    {
+        "mri_image": "Breast Cancer 2.jpg",
+        "body_part": "chest",
+        "status": "abnormal",
+        "disease_type": ["breast cancer"],
+        "impressions": "The MRI examination demonstrates findings suggestive of malignant breast disease. A mass lesion is identified in the [right/left] breast, exhibiting irregular margins and heterogeneous signal intensity on T1-weighted and T2-weighted sequences. There is evidence of associated axillary lymphadenopathy, indicating potential metastatic spread. The extent of disease involvement will require further evaluation with additional imaging modalities, such as PET scan, or biopsy for definitive diagnosis and staging.",
+        "related_info": {
+            "has_breast_tumor": "yes",
+            "tumor_classification": "malignant"
+        },
+        "image_info": {
+            "dimensions": "540 x 250",
+            "file_format": "jpg"
+        }
+    },
+    {
+        "mri_image": "Breast Cancer 3.jpg",
+        "body_part": "chest",
+        "status": "abnormal",
+        "disease_type": ["breast cancer"],
+        "impressions": "The MRI examination demonstrates findings suggestive of a benign breast lesion. A well-defined, circumscribed mass is identified in the [right/left] breast, exhibiting homogeneous signal intensity on T1-weighted and T2-weighted sequences. There is no evidence of axillary lymphadenopathy or other signs of metastatic disease.",
+        "related_info": {
+            "has_breast_tumor": "yes",
+            "tumor_classification": "benign"
+        },
+        "image_info": {
+            "dimensions": "540 x 250",
+            "file_format": "jpg"
+        }
+    },
+    {
+        "mri_image": "Breast Cancer 4.jpg",
+        "body_part": "chest",
+        "status": "abnormal",
+        "disease_type": ["breast cancer"],
+        "impressions": "The MRI examination demonstrates findings suggestive of malignant breast disease. A mass lesion is identified in the [right/left] breast, exhibiting irregular margins and heterogeneous signal intensity on T1-weighted and T2-weighted sequences. There is evidence of associated axillary lymphadenopathy, indicating potential metastatic spread. The extent of disease involvement will require further evaluation with additional imaging modalities, such as PET scan, or biopsy for definitive diagnosis and staging.",
+        "related_info": {
+            "has_breast_tumor": "yes",
+            "tumor_classification": "malignant"
+        },
+        "image_info": {
+            "dimensions": "540 x 250",
+            "file_format": "jpg"
+        }
+    },
+    {
+        "mri_image": "Breast Cancer 5.jpg",
+        "body_part": "chest",
+        "status": "abnormal",
+        "disease_type": ["breast cancer"],
+        "impressions": "The MRI examination demonstrates findings suggestive of a benign breast lesion. A well-defined, circumscribed mass is identified in the [right/left] breast, exhibiting homogeneous signal intensity on T1-weighted and T2-weighted sequences. There is no evidence of axillary lymphadenopathy or other signs of metastatic disease.",
+        "related_info": {
+            "has_breast_tumor": "yes",
+            "tumor_classification": "benign"
+        },
+        "image_info": {
+            "dimensions": "540 x 250",
+            "file_format": "jpg"
+        }
+    }
 ]
