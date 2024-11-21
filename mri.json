@@ -165,7 +165,8 @@
         "image_info": {
             "dimensions": "540 x 250",
             "file_format": "jpg"
-        }
+        },
+          "clinic_id": 15
     },
     {
         "mri_image": "Breast Cancer 2.jpg",
@@ -180,7 +181,8 @@
         "image_info": {
             "dimensions": "540 x 250",
             "file_format": "jpg"
-        }
+        },
+        "clinic_id": 12
     },
     {
         "mri_image": "Breast Cancer 3.jpg",
@@ -195,7 +197,8 @@
         "image_info": {
             "dimensions": "540 x 250",
             "file_format": "jpg"
-        }
+        },
+        "clinic_id": 4
     },
     {
         "mri_image": "Breast Cancer 4.jpg",
@@ -210,7 +213,8 @@
         "image_info": {
             "dimensions": "540 x 250",
             "file_format": "jpg"
-        }
+        },
+        "clinic_id": 15
     },
     {
         "mri_image": "Breast Cancer 5.jpg",
@@ -225,6 +229,7 @@
         "image_info": {
             "dimensions": "540 x 250",
             "file_format": "jpg"
-        }
+        },
+        "clinic_id": 6
     }
 ]
