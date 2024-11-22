@@ -205,7 +205,7 @@
     "contrast": null,
     "status": "normal",
     "impressions": "In November 2019 fever cough and asthenia treated with Ceftriaxone, subsequently with Amoxicillin and cortisone therapy. For a few days, the appearance of cough and fever 37.8 \u00b0, modest asthenia. 98% pO2 saturation is detected in ambient air. No pleuro-parenchymal outbreaks in progress.Heart and small circle within limits.",
-    "disease_type": null,
+    "disease_type": [],
     "related_info": {
       "survived": "yes",
       "intubated": "no",
